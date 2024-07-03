@@ -71,7 +71,10 @@ The very next window underneath Programs and Features click "Turn Windows featur
 <br />
 
 <p>
-A small window will pop up. Navigate to Internet Information Services and check the box. Open the tab with the + and under Web Management tool make sure IIS Management Console is checked.
+A small window will pop up. Navigate to Internet Information Services and check the box. Open the tab with the + and under Web Management Tools make sure the IIS Management Console is checked.<br><br>
+Open World Wide Web Services -> Application Development Features and check "CGI"<br>
+Open Common HTTP Features, make sure everything is check in this folder.<br>
+Hit Ok so that it will install IIS (web server)
 </p>
 <p>
 <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/50246038-24a3-4fde-897c-06cbbe861aa3"/>
@@ -79,30 +82,44 @@ A small window will pop up. Navigate to Internet Information Services and check 
 
 <br />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <p>
-List of Prerequisites that you'll need in order to run osTicket locally for this lab<br>
-You'll want to install them in this order:<br>
-1. 
+You can check to see if everything is up and running by opening a web browser and type 127.0.0.1 or "localhost". You should see a similar page to this.
+</p>
+<p>
+<img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/d423e9a7-b1d7-4010-943b-1426a0b6cbc7"/>
 </p>
 
 <br />
 
+
+
+
+
+
+<h2>Now lets install the Prerequisites for osTicket</h2>
 <p>
 <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/e1b43c31-e9c1-4c48-a1bd-3bdf9e06cb8a"/>
 </p>
+
+<p>
+The order I installed them in are as follows:
+</p>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+</br>
+
+
+
+
+
+
+
+
+
 
 <p>
 here.

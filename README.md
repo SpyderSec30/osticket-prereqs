@@ -128,11 +128,36 @@ The order I installed them in are as follows:
   <li>Inside `C:\inetpub\wwwroot` rename the newly added upload folder to "osTicket" </li>
   <li>Go back to IIS and Restart it</li>
   <li>Open the sites folder (top-left) -> Default Web Site -> osTicket. Make sure its Higlighted then then click Browse *:80(http) on the right.</li><br>
-  <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/58e2e0a4-1d76-444b-912e-ceb0e07b2abe"/><br>
+  <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/58e2e0a4-1d76-444b-912e-ceb0e07b2abe"/><br></br>
+  
+  <li>You can also type "localhost" in your web browser and you should see.</li><br></br>
   <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/2c85894e-76de-4904-a0d3-1d4490920bf6"/><br></br>
-  <li></li>
-  <li></li>
-  <li></li>
+
+  <p>Note that some extensions are not enabled. But we can enable the ones that are necessary for this lab back in IIS.</p>
+  <li>Back in IIS navigate to sites -> Default -> osTicket</li>
+  <li>Select PHP Manager</li>
+  <li>Under PHP Extensions click "Enable or disable and Extension"</li>
+  <li>Enable (right-click): php_imap.dll, php_intl.dll, and php_opache.dll</li><br>
+  <li>Refresh your web browser and all but the last two items should have a green check.</li>
+  <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/da8e2db7-bec3-44a7-a1d5-4f3f0330e579"/><br></br>
+
+  <h2>Finishing up</h2>
+  <li>Open File Explorer and navigate to `C:\inetpub\wwwroot\osTicket\include`. Inside this directory there is a file called "ost-sampleconfig.php" rename it to just "ost-config.php" (just take the sample out)</li>
+  <li>Now we're going to set some permissions. Right-click the file, go to properties, select the security tab, click Advanced</li>
+  <li>Disable Inheritence (Remove all inherited permissions for this object)</li>
+  <li>Click Add, then for selcet a principal type Everyone and give full control (for now), Apply, then Ok</li>
+  
+  <li>Go back to your Browser and click continue on the osTicket page to setup osTicket in the Browser. Make up your own HelpDesk Name and Admin User. After this theres is one more thing we have to do in order to 
+   fill in the information at the end of the page and thats install and configure HeidiSQL.</li>
+
+  <h3>Last prereq HeidiSQL</h3>
+  <li>Install HeidiSQL_12.3.0.6589_Setup (nothing special, just go through the setup wizard and install the defaults)</li>
+  <li>Create a new connection to the database by clicking "New" (bottom-left)</li><br>
+  <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/199916e9-6f9d-4244-bbd6-f1984b7fcaae"/><br></br>
+  
+  <li>Here is where you'll enter the password you made when we installed mysql earlier.</li><br>
+  <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/ecdda1a6-0b99-42d7-b75e-044a63675494"/><br></br>
+  
   <li></li>
   <li></li>
 </ol>  

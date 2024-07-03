@@ -97,6 +97,7 @@ You can check to see if everything is up and running by opening a web browser an
 
 
 <h2>Now lets install the Prerequisites for osTicket</h2>
+<p>First Create a directory called "PHP" on the C drive. Then install the Prereqs.</p><br>
 <p>
 <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/e1b43c31-e9c1-4c48-a1bd-3bdf9e06cb8a"/>
 </p>
@@ -106,12 +107,36 @@ The order I installed them in are as follows:
 </p>
 
 <ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>PHPMangerforIIS_V1.5.0</li>
+  <li>Rewrite_amd64</li>
+  <li>Extract php-7.3.8-nts-Win32-VC15-x86 and put it in the PHP folder we created on the C drive.</li>
+  <li>VC_redist.x86</li>
+  <li>mysql-5.5.62-win32 (typical install)</li>
+  <li>Next mysql will launch a Configuration Wizard. Do a Standard Configuration, keep the defaults and REMEMBER YOUR CREDENTIALS! What this does is install an actual database on your computer for osTicket to keep 
+   the tickets, users and any other app data stored.</li><br>
+  
+  <li>Now type "IIS" in the search box and open Internet Information Services Manager as an admin</li><br>
+  <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/12ddc388-e18d-4227-ba08-15e9d2b146aa"/><br></br>
+
+  
+  <li>Inside IIS double click PHP manager then under PHP setup you should see and click Register New PHP version.</li>
+  <li>Browse to the PHP folder we created on the C drive. Open it and select "php-cgi"</li>
+  <li>Go back to the original screen by clicking osTicket (top-left), Then restart the server (top-right)</li>
+
+  <h2>Now its time to install osTicket</h2>
+  <li>From the zipfile osTicket-v1.15.8 copy the "upload" folder to `C:\inetpub\wwwroot`. This is the web server's main folder </li>
+  <li>Inside `C:\inetpub\wwwroot` rename the newly added upload folder to "osTicket" </li>
+  <li>Go back to IIS and Restart it</li>
+  <li>Open the sites folder (top-left) -> Default Web Site -> osTicket. Make sure its Higlighted then then click Browse *:80(http) on the right.</li><br>
+  <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/58e2e0a4-1d76-444b-912e-ceb0e07b2abe"/><br>
+  <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/2c85894e-76de-4904-a0d3-1d4490920bf6"/><br></br>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
 </ol>  
 </br>
-
 
 
 

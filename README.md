@@ -158,11 +158,27 @@ The order I installed them in are as follows:
   <li>Here is where you'll enter the password you made when we installed mysql earlier.</li><br>
   <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/ecdda1a6-0b99-42d7-b75e-044a63675494"/><br></br>
   
-  <li></li>
-  <li></li>
-</ol>  
+  <li>On this next screen you'll want to right-click where is says Unnamed in the top-left and Create a new Database. For this lab i'll be naming it osTicket. We will use this database back in the web browser to finish up our setup at the bottom of the osTicket web 
+  page</li><br>
+  <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/3f2a74cd-d861-4e31-8cef-aa070f187b7d"/><br></br>
+  
+  <li>Enter your mysql credentials and the name of the database you made and click install and you should be ready to start making and practicing with osTicket</li><br>
+  <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/e308cbe2-00b2-40d6-9427-d70b0d0f7ebc"/><br></br>
+  
+  <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/9357c26c-218c-45f1-b641-57c3c5c34c13"/><br></br>
+  <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/42b725a2-f1a3-4c04-acb7-1a703e4904dc"/><br></br>
+ 
+ </ol>  
 </br>
 
+<h2>Clean up</h2>
+<p>Your going to want to delete the setup folder in the `C:\inetpub\wwwroot\osTicket\setup` directory</p>
+<p>Also be sure to go back and give read-only permissions to the ost-config.php file located at `C:\inetpub\wwwroot\osTicket\include\ost-config.php`. We gave everyone full-control earlier in the lab, but that was only required for setup.</p>
+
+<h1>Finished!!!</h1>
+<img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/f99a9cf7-bc98-4a38-b53b-37b1bb846d67"/><br></br>
+
+<p>OsTicket has been successfully installed and is now ready for use. You can start exploring the platform to understand how tickets are handled in a professional IT environment. This will be an excellent opportunity for you to gain practical experience and enhance your skills.</p>
 
 
 
@@ -171,44 +187,3 @@ The order I installed them in are as follows:
 
 
 
-<p>
-here.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>

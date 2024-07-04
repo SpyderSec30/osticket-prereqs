@@ -178,7 +178,7 @@ The order I installed them in are as follows:
 <h1>Finished!!!</h1>
 <img src="https://github.com/SpyderSec30/osticket-prereqs/assets/174487140/f99a9cf7-bc98-4a38-b53b-37b1bb846d67"/><br></br>
 
-<p>OsTicket has been successfully installed and is now ready for use. You can start exploring the platform to understand how tickets are handled in a professional IT environment. This will be an excellent opportunity for you to gain practical experience and enhance your skills.</p>
+<p>OsTicket has been successfully installed and is now ready for use. Now we can start exploring the platform to understand how tickets are handled in a professional IT environment. This will be a great opportunity to gain practical experience and enhance our skills.</p>
 
 
 
